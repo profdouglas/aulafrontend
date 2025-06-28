@@ -33,12 +33,27 @@ Usamos uma analogia para entender os papéis:
 
 -   ### **HTML: A Estrutura**
     * É o esqueleto que sustenta o conteúdo.
+    ![Esqueleto height:300px](esqueleto.png)
+
+---
+<!-- _class: invert -->
+
+## A Web como um Corpo Humano
+
+Usamos uma analogia para entender os papéis:
 
 -   ### **CSS: O Estilo**
     * São as roupas, cores e a aparência visual.
+    ![Roupa height:300px](roupa.png)
+---
+<!-- _class: invert -->
 
+## A Web como um Corpo Humano
+
+Usamos uma analogia para entender os papéis:
 -   ### **JavaScript: O Comportamento**
     * É o cérebro que controla as ações e a interatividade.
+    ![Cerebro height:300px](cerebro.png)
 
 ---
 <!-- _class: invert -->
@@ -152,5 +167,10 @@ h1 {
 }
 h2 {
   font-size: 1.6em;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
 }
 </style>
