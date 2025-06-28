@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Página Interativa</h1>
+    <button id="toggleBtn">
+      Ativar Modo Noturno
+    </button>
+  </body>
+
+<style>
+    /* Estilo padrão da página */
+    body {
+    background-color: #FFF;
+    color: #333;
+    transition: all 0.3s;
+    }
+
+    /* A classe que será ativada depois */
+    .dark-mode {
+    background-color: #333;
+    color: #FFF;
+    }
+</style>
+
+<script>
+    // 1. Achar o botão no HTML
+    const toggleBtn = document.getElementById('toggleBtn');
+
+    // 2. Achar o corpo da página
+    const body = document.body;
+
+    // 3. Ouvir o evento de clique
+    toggleBtn.addEventListener('click', function() {
+    // 4. Adicionar/Remover a classe .dark-mode
+    body.classList.toggle('dark-mode');
+    });
+</script>
+
+
+</html>
+
