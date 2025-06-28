@@ -112,6 +112,13 @@ Como a mágica acontece? É um fluxo lógico:
 ---
 <!-- _class: invert -->
 
+## Vamos testar?
+
+https://codepen.io/pen
+
+---
+<!-- _class: invert -->
+
 ## Conclusão
 
 Revisitando nossos objetivos, nós conseguimos:
@@ -125,6 +132,9 @@ A união dessas três ferramentas é o que permite a criação de qualquer inter
 
 ---
 <!-- _class: invert -->
+
+# Aula disponível em:
+##  https://github.com/profdouglas/aulafrontend
 
 # Obrigado!
 
