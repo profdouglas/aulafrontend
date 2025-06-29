@@ -192,10 +192,10 @@ img {
 
 Revisitando nossos objetivos, nós conseguimos:
 
-✔️ **Diferenciar** o papel de cada linguagem.
-✔️ **Estruturar** com HTML.
-✔️ **Estilizar** com CSS.
-✔️ **Aplicar comportamento** com JavaScript.
+**Diferenciar** o papel de cada linguagem.
+**Estruturar** com HTML.
+**Estilizar** com CSS.
+**Aplicar comportamento** com JavaScript.
 
 A união dessas três ferramentas é o que permite a criação de qualquer interface na web moderna.
 
