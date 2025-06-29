@@ -159,28 +159,30 @@ Como a mágica acontece? É um fluxo lógico:
 ---
 <!-- _class: invert -->
 
-## Vamos testar?
+## Demonstração: Estado Inicial (Modo Claro)
+
+Este é o visual da nossa página antes de qualquer interação do usuário. O CSS padrão está aplicado.
 
 ![Teste-White](teste-white.png)
 
 <style scoped>
 img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 79%;
   object-fit: contain;
 }
 </style>
 ---
 <!-- _class: invert -->
 
-## Vamos testar?
+## Demonstração: Após o Clique (Modo Escuro)
+
+Com um único clique, o JavaScript alterou o DOM, e o CSS, que já estava preparado, aplicando o estilo `.dark-mode` instantaneamente.
 
 ![Teste-White](teste-dark.png)
 
 <style scoped>
 img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 79%;
   object-fit: contain;
 }
 </style>
@@ -202,12 +204,17 @@ A união dessas três ferramentas é o que permite a criação de qualquer inter
 ---
 <!-- _class: invert -->
 
-# Aula disponível em:
-##  https://github.com/profdouglas/aulafrontend
+
 
 # Obrigado!
 
 ## Perguntas?
+
+<br>
+
+### Material da aula disponível em:
+####  https://github.com/profdouglas/aulafrontend
+
 
 <style>
 /* Altera o tamanho da fonte para todo o slide */
