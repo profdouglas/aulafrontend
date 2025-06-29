@@ -21,39 +21,71 @@ paginate: true
 
 O nosso objetivo é entender na prática a sinergia entre as três linguagens fundamentais da web.
 
-- **🎯 Meta:** Construir uma funcionalidade de "Modo Noturno" do zero.
-- **🧑‍🏫 Ao final:** Você será capaz de diferenciar o papel de cada tecnologia no resultado final.
+- **Meta:** Construir uma funcionalidade de "Modo Noturno" do zero.
+- **Ao final:** Você será capaz de diferenciar o papel de cada tecnologia no resultado final.
 
 ---
 <!-- _class: invert -->
 
 ## A Web como um Corpo Humano
+<div class="columns">
+<div>
 
-Usamos uma analogia para entender os papéis:
+-   #### **HTML: A Estrutura**
+    * É o esqueleto que sustenta o conteúdo.<br>
+    ![Esqueleto](esqueleto.png)
+</div>
+<div>
 
--   ### **HTML: A Estrutura**
-    * É o esqueleto que sustenta o conteúdo.
-    ![Esqueleto height:300px](esqueleto.png)
+-   #### **CSS: O Estilo**
+    * São as roupas, cores e a aparência visual.<br><br>
+    ![Roupa](roupa.png)
 
----
-<!-- _class: invert -->
+</div>
+<div>
 
-## A Web como um Corpo Humano
-
-Usamos uma analogia para entender os papéis:
-
--   ### **CSS: O Estilo**
-    * São as roupas, cores e a aparência visual.
-    ![Roupa height:300px](roupa.png)
----
-<!-- _class: invert -->
-
-## A Web como um Corpo Humano
-
-Usamos uma analogia para entender os papéis:
--   ### **JavaScript: O Comportamento**
+-   #### **JavaScript: O Comportamento**
     * É o cérebro que controla as ações e a interatividade.
-    ![Cerebro height:300px](cerebro.png)
+    ![Cerebro](cerebro.png)
+</div>
+</div>
+
+<style scoped>
+.columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  /* Garante que todas as colunas se estiquem para ter a mesma altura */
+  align-items: end; 
+}
+
+/* Transforma cada coluna em um contêiner flexível vertical */
+.columns > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* MÁGICA ACONTECE AQUI */
+  text-align: center;
+  padding: 1rem;
+}
+
+.columns > div > h3 {
+  margin-top: 0;
+}
+
+.columns img {
+  max-width: 100%;
+  height: 250px;
+  object-fit: contain;
+}
+
+/* Regras para ajustar a fonte deste slide */
+section {
+  font-size: 24px;
+}
+section h3 {
+  font-size: 1.2em;
+}
+</style>
 
 ---
 <!-- _class: invert -->
@@ -129,7 +161,29 @@ Como a mágica acontece? É um fluxo lógico:
 
 ## Vamos testar?
 
-https://codepen.io/pen
+![Teste-White](teste-white.png)
+
+<style scoped>
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+</style>
+---
+<!-- _class: invert -->
+
+## Vamos testar?
+
+![Teste-White](teste-dark.png)
+
+<style scoped>
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+</style>
 
 ---
 <!-- _class: invert -->
@@ -167,10 +221,5 @@ h1 {
 }
 h2 {
   font-size: 1.6em;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
 }
 </style>

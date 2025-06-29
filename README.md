@@ -8,18 +8,18 @@
 
 ### **3. Objetivos (Conforme Tabela 4 do Edital)**
 * **Objetivo Geral:** Compreender a sinergia entre HTML, CSS e JavaScript na construção de interfaces web. 
-* **Objetivos Específicos:** Ao final desta aula de 15 minutos, o aluno será capaz de: 
+* **Objetivos Específicos:** Ao final desta aula, o aluno será capaz de: 
 	1. Diferenciar o papel estrutural do HTML, o papel de estilização do CSS e o papel de comportamento do JavaScript.
 	2. Estruturar um conteúdo mínimo utilizando tags semânticas do HTML. 
 	3. Aplicar uma regra de estilo em CSS para alterar a aparência de um elemento. 
 	4. Implementar um script simples em JavaScript para responder a uma interação do usuário (evento de clique). 
 
 ### **4. Conteúdo Programático** 
-1. Introdução: A analogia da construção de uma casa (HTML: estrutura; CSS: decoração; JavaScript: funcionalidade). 
-2. HTML como esqueleto da página: Estruturando o conteúdo. 
-3. CSS como estilização: Modificando a aparência. 
-4. JavaScript como cérebro: Adicionando interatividade (manipulação de DOM). 
-5. Conclusão: A integração das três tecnologias e o resultado final.
+1. Introdução: Apresentação da analogia do "Corpo Humano" para o desenvolvimento web.
+2. HTML como o Esqueleto: A importância da estrutura para o conteúdo da página.
+3. CSS como a Roupa: A estilização e a definição da aparência visual.
+4. JavaScript como o Cérebro: A adição de comportamento e interatividade através da manipulação do DOM.
+5. Conclusão: A integração da "tríade" (esqueleto, roupa e cérebro) para criar uma página interativa e funcional.
 
 ### **5. Metodologia e Cronograma** 
 * A aula será expositiva e demonstrativa, seguindo uma abordagem construtivista ao construir um exemplo prático passo a passo. 
